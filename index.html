@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>대한투어</title>
+    <link rel="stylesheet" href="css.main.css">
+    <script src="js/jquery-1.12.4.min.js"></script>
+</head>
+<body>
+    <!-- #header>header^#slide+#contents+#footer>footer -->
+
+    <div id="header">
+        <header>
+            <!-- logo+nav -->
+            <div class="logo">
+                <!-- a>img -->
+                <a href="#"><img src="img/logo.png" alt="로고"></a>
+            </div>
+            <nav>
+                <!-- ul.gnb>li*4>a[href="#"]{버튼$}+ul.sub>li*4>a[href="#"]{s버튼$} -->
+                <ul class="gnb">
+                    <li>
+                        <a href="#">버튼1</a>
+                        <ul class="sub">
+                            <li><a href="#">s버튼1</a></li>
+                            <li><a href="#">s버튼2</a></li>
+                            <li><a href="#">s버튼3</a></li>
+                            <li><a href="#">s버튼4</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">버튼2</a>
+                        <ul class="sub">
+                            <li><a href="#">s버튼1</a></li>
+                            <li><a href="#">s버튼2</a></li>
+                            <li><a href="#">s버튼3</a></li>
+                            <li><a href="#">s버튼4</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">버튼3</a>
+                        <ul class="sub">
+                            <li><a href="#">s버튼1</a></li>
+                            <li><a href="#">s버튼2</a></li>
+                            <li><a href="#">s버튼3</a></li>
+                            <li><a href="#">s버튼4</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">버튼4</a>
+                        <ul class="sub">
+                            <li><a href="#">s버튼1</a></li>
+                            <li><a href="#">s버튼2</a></li>
+                            <li><a href="#">s버튼3</a></li>
+                            <li><a href="#">s버튼4</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <!-- .nav_back -->
+            <div class="nav_back"> </div>
+    <!-- 백판위치 여기여야 쉬움 -->
+        </header>
+    </div>
+    <div id="slide">
+         <!-- ul>li*4>a[href="#"]>img[src="img/slide$.jpg" alt="슬라이드$"] -->
+         <ul>
+            <li><a href="#"><img src="img/slide1.jpg" alt="슬라이드1"></a></li>
+            <li><a href="#"><img src="img/slide2.jpg" alt="슬라이드2"></a></li>
+            <li><a href="#"><img src="img/slide3.jpg" alt="슬라이드3"></a></li>
+            <li><a href="#"><img src="img/slide1.jpg" alt="슬라이드1"></a></li>
+        </ul>
+    </div>
+    <div id="contents">
+        <!-- section*3>.title -->
+        <!-- 콘텐츠 구역나누기~~ -->
+        <section>
+            <div class="title">공지사항</div>
+            <!-- ul.notice>li*4>a[href="#"]>div.num+div.subject -->
+            <!-- 공지사항 리스트 넣기~~~ -->
+            <ul class="notice">
+                <li>
+                    <a href="#">
+                        <div class="num">1 </div>
+                        <div class="subject">전자증권 전환 대상 주주 보호 및 조치사항 안내</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="num">2 </div>
+                        <div class="subject">개인정보 처리방침 개정 안내	</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="num">3 </div>
+                        <div class="subject">주식회사 모두투어네트워크 결산공고	</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="num">4 </div>
+                        <div class="subject">개인정보처리방침 개정안내</div>
+                    </a>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <div class="title">갤러리</div>
+            <!-- ul.gallery>li*3>a[href="#"]>img[src="img/gallery$$.jpg" alt="갤러리$"] -->
+            <!-- 갤러리 구조~~~ -->
+            <ul class="gallery">
+                <li><a href="#"><img src="img/gallery01.jpg" alt="갤러리1"></a></li>
+                <li><a href="#"><img src="img/gallery02.jpg" alt="갤러리2"></a></li>
+                <li><a href="#"><img src="img/gallery03.jpg" alt="갤러리3"></a></li>
+            </ul>
+        </section>
+        <section>
+            <div class="title">바로가기</div>
+            <!-- ul.link>li*2>a[href="#"] -->
+            <!-- 바로가기 구조~~ -->
+            <ul class="link">
+                <li><a href="#">
+                    <img src="img/link1.jpg" alt="바로가기">
+                </a></li>
+                <li><a href="#">
+                    항공권 예약
+                </a></li>
+            </ul>
+        </section>
+    </div>
+    <div id="footer">
+        <footer>
+            <div class="copy">
+                (주)대한투어 | 대표 : 강희찬 | 개인정보관리 책임자 : 민준현 | 사업자 등록번호 : 202-81-45295 | <br>
+                통신판매업신고번호 : 중구 제03500호 | 관광사업자 등록번호 : 1989-04(서울특별시 중구) | <br>
+                고객센터 : 1544-5252 | FAX : 02-2021-7800 | 주소 : 서울특별시 중구 을지로 16 승천빌딩 3층 <br>
+                COPYRIGHT 1989-2019 DAEHANTOUR. ALL RIGHTS RESERVED.
+            </div>
+            <div class="f_right">
+                <div class="sns">
+                    <select name="" id="">
+                        <option value="">Instagram</option>
+                        <option value="">Facebook</option>
+                        <option value="">Kakaotalk</option>
+                    </select>
+                </div>
+                <div class="family">
+                    <select name="" id="">
+                        <option value="">대한보증보험</option>
+                        <option value="">알뜨랑 여행자보험</option>
+                        <option value="">대한투어 대리점</option>
+                        <option value="">대한투어 멤버스</option>
+                    </select>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
